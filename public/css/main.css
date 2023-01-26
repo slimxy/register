@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 239, 237);
+    width: 100vh;
+}
+    .header{
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 69px;
+        display: flex;
+        /* background:  rgba(2, 2, 15, 0.904); */
+        background-color: rgb(255, 81, 0);
+        color:rgb(255, 255, 255);
+        margin-bottom: 22px;
+        justify-content: space-between;
+    }
+    .logo{
+        padding: 8px;
+
+    }
+    .links{
+        justify-content: space-between;
+        padding: 8px;
+        font-size: 33px;
+
+    }
+    a{
+        margin-right: 12px;
+        text-decoration: none;   
+             color:rgb(255, 255, 255);
+
+    }
+
+                    /* FORM */
+.myform{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    width: 40%;
+    height:350px;
+    padding: 4%;
+    text-align: center;
+    border: 3px solid  rgba(144, 144, 150, 0.753);
+    border-radius: 9px;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px rgba(144, 144, 150, 0.753);
+}
+label{
+    font-size: 23px;
+    margin: 12px;
+}
+label[for='email']{
+    margin: 34px;
+}
+label[for='address']{
+    margin: 27px;
+}
+input {
+    margin: 7px;
+    font-size: 17px;
+    width: 290px;
+    height: 30px;
+    border-radius:7px;
+    text-align: center;
+}
+input[name='address'] {
+       width: 320px;
+    height: 60px;
+    border-radius:7px;
+    text-align: center;
+}
+input[type='submit']{
+    margin-top: 8%;
+    font-size: 20px;
+    color:rgba(11, 11, 12, 0.808);
+    border: 2px solid rgba(11, 11, 12, 0.555);
+    width: 120px;
+    height: 35px;
+    border-radius:7px;
+    text-align: center;
+}
+.tableCaption{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%);
+color: rgb(255, 81, 0) ;
+    font-size: 88px;
+}
+/* TABLE */
+.data{
+    position: absolute;
+    top: 900px;
+    background: rgba(245, 237, 237, 0.116);
+    margin-left: 12px;
+
+
+}
+th,td{
+    border: 2px solid rgb(255, 81, 0) ;
+    margin: 12px;
+    text-align: center;
+    
+}
+table{
+     border-collapse: collapse;
+     margin-bottom: 22px;
+}
+th{
+    color: rgb(255, 81, 0) ;
+    font-size: 17px;
+    font-weight: bold   ;
+}
+th,td{
+    width: 100px;
+    max-width: 210px;
+    padding: 13px;
+    justify-items: auto;
+    margin: 12px;
+    text-align: center;
+
+}
+
+a input[type='submit']{
+    width: 75px;
+    height: 35px;
+    font-size: 19px;
+}
+input[value='Edit']{
+    background: rgb(231, 112, 33);
+    color:white;
+
+}
+input[value='Delete']{
+    background: rgb(255, 3, 3);
+}
+input[value='View']{
+    background: rgb(212, 208, 208);
+    color:rgb(231, 112, 33);
+}
+input[type='submit']:hover{
+opacity: 0.7;
+font-weight: bold;
+transition: ease all 0.5ms;
+}
+/* VIEW */
+.studentData{
+    position: absolute;
+    top: 15%;
+    left: 12px;
+    font-size: 47px;
+
+}
+.profile_pic{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 350px;
+    height:350px;
+    border: radius 50%;
+}
